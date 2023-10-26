@@ -19,9 +19,9 @@ public class Regalo {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "descrizione'" + descrizione + '\'' +
-                ", destinatario" + destinatario +
+        return "Regalo{" +
+                "descrizione='" + descrizione + '\'' +
+                ", destinatario='" + destinatario + '\'' +
                 '}';
     }
 }

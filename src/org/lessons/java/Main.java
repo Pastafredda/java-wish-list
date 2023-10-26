@@ -24,11 +24,11 @@ public class Main {
                 System.out.println("Inserisci il destinatario");
                 String destinatario=scanner.nextLine();
                 regali.add(new Regalo(descrizione, destinatario));
-                System.out.println(regali.size());
+                System.out.println("hai aggiunto : " + regali.size() + " regali");
             }
         }
         System.out.println(regali.size());
-        System.out.println(regali.toString());
+        System.out.println(regali);
         scanner.close();
     }
 
